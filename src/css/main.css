@@ -26,6 +26,19 @@ video {
   margin-top: 20px;
 }
 
+@media (min-width: 576px) {
+  .description-title {
+    font-size: 28px;
+  }
+}
+@media (min-width: 992px) {
+  .description-title {
+    font-size: 36px;
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
 .description-content {
   text-align: center;
   font-family: "Inter";
@@ -45,6 +58,16 @@ video {
   margin-top: 20px;
 }
 
+@media (min-width: 576px) {
+  .logos {
+    display: flex;
+    width: 536px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+}
+
 .news-title {
   text-align: center;
   font-family: "Inter";
@@ -54,6 +77,12 @@ video {
   margin-top: 20px;
 }
 
+@media (min-width: 576px) {
+  .news-title {
+    margin-top: 50px;
+  }
+}
+
 .download-title {
   text-align: center;
   font-family: "Hammersmith One";
@@ -61,9 +90,21 @@ video {
   font-weight: 400;
 }
 
+@media (min-width: 576px) {
+  .download-title {
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
 .download-content {
   font-family: "Inter";
   font-size: 14px;
   font-weight: 400;
   text-align: center;
+}
+
+.download-content.desktop {
+  opacity: 0%;
 }
