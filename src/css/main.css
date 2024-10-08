@@ -34,8 +34,7 @@ video {
 @media (min-width: 992px) {
   .description-title {
     font-size: 36px;
-    display: flex;
-    align-items: flex-start;
+    text-align: start;
   }
 }
 
@@ -45,6 +44,12 @@ video {
   font-size: 14px;
   font-weight: 400;
   margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .description-content {
+    text-align: left;
+  }
 }
 
 .logos {
@@ -65,6 +70,17 @@ video {
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .logos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 592px;
+    padding-left: 5px;
+    gap: 30px;
   }
 }
 
@@ -98,6 +114,12 @@ video {
   }
 }
 
+@media (min-width: 992px) {
+  .download-title {
+    font-size: 36px;
+  }
+}
+
 .download-content {
   font-family: "Inter";
   font-size: 14px;
@@ -105,6 +127,18 @@ video {
   text-align: center;
 }
 
+@media (min-width: 992px) {
+  .download-content.mobile {
+    display: none;
+  }
+}
+
 .download-content.desktop {
   opacity: 0%;
+}
+
+@media (min-width: 992px) {
+  .download-content.desktop {
+    opacity: 100%;
+  }
 }
