@@ -16,3 +16,54 @@ img,
 video {
   display: block;
 }
+
+.description-title {
+  text-align: center;
+  font-family: "Hammersmith One";
+  font-size: 20px;
+  font-weight: 400;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.description-content {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.logos {
+  display: flex;
+  width: 320px;
+  padding: 0px 59px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.news-title {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.download-title {
+  text-align: center;
+  font-family: "Hammersmith One";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.download-content {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
